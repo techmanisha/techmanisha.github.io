@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome User</h1>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus corporis mollitia facere recusandae neque placeat
-         vitae odio quam doloribus nulla dignissimos voluptates quod aperiam maxime magnam rem eligendi, libero consequuntur.
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus corporis mollitia facere recusandae neque placeat
-         vitae odio quam doloribus nulla dignissimos voluptates quod aperiam maxime magnam rem eligendi, libero consequuntur.
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus corporis mollitia facere recusandae neque placeat
-         vitae odio quam doloribus nulla dignissimos voluptates quod aperiam maxime magnam rem eligendi, libero consequuntur.
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus corporis mollitia facere recusandae neque placeat
-         vitae odio quam doloribus nulla dignissimos voluptates quod aperiam maxime magnam rem eligendi, libero consequuntur.
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus corporis mollitia facere recusandae neque placeat
-         vitae odio quam doloribus nulla dignissimos voluptates quod aperiam maxime magnam rem eligendi, libero consequuntur.
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus corporis mollitia facere recusandae neque placeat
-         vitae odio quam doloribus nulla dignissimos voluptates quod aperiam maxime magnam rem eligendi, libero consequuntur.</p>
+    <div id="root">
+        <h1>Welcome to Github</h1>
+    </div>
+
+    <div class="banner">
+        <img src="image/img1.jpg" alt="img" id="banner">
+
+    </div>
+    <ul>
+        <li onclick="document.getElementById('banner').src='image/img1.jpg'">Image1</li>  
+        <li onclick="document.getElementById('banner').src='image/img2.jpg'">Image2</li>
+        <li onclick="document.getElementById('banner').src='image/img3.jpg'">Image3</li>            
+    </ul>
+    
+    <script src="App.js"></script>
 </body>
-</html>
+</html>         
